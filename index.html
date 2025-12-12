@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Adarsh Clothing Brand</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body { margin: 0; font-family: 'Poppins', sans-serif; background: #0d0d0d; color: #e6e6e6; }
+    header { background: #000; color: #fff; padding: 20px; text-align: center; font-size: 32px; letter-spacing: 2px; }
+    .hero { background: url('https://images.unsplash.com/photo-1523381210434-271e8be1f52b') center/cover no-repeat; height: 70vh; display: flex; align-items: center; justify-content: center; color: white; text-shadow: 0 0 12px rgba(0,0,0,0.7); font-size: 44px; font-weight: bold; animation: fadeIn 2s ease-in-out; }
+    @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+    .section { padding: 50px 20px; text-align: center; animation: fadeUp 1.5s ease; }
+    @keyframes fadeUp { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
+    .btn { display: inline-block; margin: 10px; padding: 14px 28px; background: #1a1a1a; color: #fff; text-decoration: none; border-radius: 8px; font-size: 18px; transition: 0.3s; border: 1px solid #333; }
+    .btn:hover { background: #003366; transform: scale(1.07); }
+    footer { background: #000; color: #fff; padding: 20px; text-align: center; margin-top: 40px; font-size: 14px; }
+    .product-card:hover { transform: scale(1.05); transition: 0.3s; }
+    .whatsapp-float { position: fixed; bottom: 20px; right: 20px; background: #25D366; color: white; width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 30px; text-decoration: none; box-shadow: 0 4px 10px rgba(0,0,0,0.3); z-index: 100; }
+  </style>
+</head>
+<body>
+  <header>Adarsh Clothing Brand</header>
+  <div class="hero">Feel the Premium Quality</div>
+  <section class="section" id="contact">
+    <h2>Contact Us</h2>
+    <p>Humse directly contact kare niche diye gaye options se:</p>
+    <a class="btn" href="tel:+910000000000">📞 Call Now</a>
+    <a class="btn" href="mailto:your-email@example.com">📧 Email Us</a>
+    <a class="btn" href="https://wa.me/910000000000?text=Hi,%20I%20want%20to%20buy%20jeans" target="_blank">💬 WhatsApp</a>
+  </section>
+  <section class="section" id="about">
+    <h2>About Our Brand</h2>
+    <p>Hum premium quality jeans banate hain jo comfort aur style dono provide karti hain. Hamara focus durable fabric, modern fitting, aur affordable pricing par hota hai.</p>
+  </section>
+  <section class="section" id="products">
+    <h2>Our Collection</h2>
+    <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:20px;max-width:1000px;margin:auto;">
+      <div class="product-card" style="background:#111;padding:15px;border-radius:12px;width:280px;box-shadow:0 0 15px rgba(255,255,255,0.05);">
+        <img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f" style="width:100%;border-radius:10px;" />
+        <h3>Premium Blue Jeans</h3>
+        <p>₹1299</p>
+        <a class="btn" href="https://wa.me/910000000000?text=Hi,%20I%20want%20to%20buy%20Premium%20Blue%20Jeans" target="_blank">Buy Now</a>
+      </div>
+      <div class="product-card" style="background:#111;padding:15px;border-radius:12px;width:280px;box-shadow:0 0 15px rgba(255,255,255,0.05);">
+        <img src="https://images.unsplash.com/photo-1503341381926-ccce77f1df52" style="width:100%;border-radius:10px;" />
+        <h3>Black Slim Fit</h3>
+        <p>₹1399</p>
+        <a class="btn" href="https://wa.me/910000000000?text=Hi,%20I%20want%20to%20buy%20Black%20Slim%20Fit" target="_blank">Buy Now</a>
+      </div>
+      <div class="product-card" style="background:#111;padding:15px;border-radius:12px;width:280px;box-shadow:0 0 15px rgba(255,255,255,0.05);">
+        <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab" style="width:100%;border-radius:10px;" />
+        <h3>Stone Wash Denim</h3>
+        <p>₹1499</p>
+        <a class="btn" href="https://wa.me/910000000000?text=Hi,%20I%20want%20to%20buy%20Stone%20Wash%20Denim" target="_blank">Buy Now</a>
+      </div>
+    </div>
+  </section>
+  <section class="section" id="shop">
+    <h2>Shop Now</h2>
+    <p>Premium denim at best prices</p>
+    <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:20px;max-width:1000px;margin:auto;"></div>
+  </section>
+  <section class="section" id="instagram">
+    <h2>Instagram Feed</h2>
+    <p>Latest posts from our official Instagram:</p>
+    <iframe src="https://www.instagram.com/adarshhhhh06/embed" width="400" height="480" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+  </section>
+  <footer>© 2025 Adarsh Clothing Brand — All Rights Reserved</footer>
+  <a href="https://wa.me/910000000000" target="_blank" class="whatsapp-float">💬</a>
+</body>
+</html>
